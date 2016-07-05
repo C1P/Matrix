@@ -6,3 +6,4 @@ det(5*A-3*B)  #det 行列式
 A*B
 solve(A%*%B)
 solve(A%*%B)%*%(A%*%B)
+qr()$rank ##求矩阵秩
