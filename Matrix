@@ -7,3 +7,4 @@ A*B
 solve(A%*%B)
 solve(A%*%B)%*%(A%*%B)
 qr()$rank ##求矩阵秩
+eigen() 特征值&特征向量
