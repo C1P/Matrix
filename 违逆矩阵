@@ -1,0 +1,9 @@
+##伪逆矩阵
+library("MASS")
+ginv(a)
+
+##列满秩
+##一个矩阵的m*n，m>n 左违逆矩阵
+solve(t(a)%*%a)%*%t(a)
+##SVD方法
+还没弄明白
